@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-input/paper-input.html">
+<link rel="import" href="../paper-input/paper-textarea.html">
+<link rel="import" href="../paper-toggle-button/paper-toggle-button.html">
+
+<!--
+`oc-product-input`
+Element for product capturing
+
+@demo demo/index.html 
+-->
+
+<dom-module id="oc-product-input">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'oc-product-input',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'oc-product-input',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
